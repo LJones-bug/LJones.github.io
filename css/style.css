@@ -15,14 +15,14 @@ html {
 
 body {
 	
-	 background: plum;
+	 background:#b5a4eb;
 }
 
 
 #container {
     
      border: 1px solid rgb(#,#,#);
-  background: plum;
+  background: #b5a4eb;
   width: 90%;                          
   max-width: 800px;                 
   margin: auto;
