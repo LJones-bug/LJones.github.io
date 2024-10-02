@@ -9,18 +9,23 @@ html {
 		/* Standard text-settings below */
 	font-size: 1em;
     line-height: 1.4em;
+     
 }
-
-
 
 
 body {
 	
-	
+	 background: plum;
 }
 
 
 #container {
+    
+     border: 1px solid rgb(#,#,#);
+  background: plum;
+  width: 90%;                          
+  max-width: 800px;                 
+  margin: auto;
 	
 }
 
