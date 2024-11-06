@@ -1,0 +1,105 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+h1{ 
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+    background-color:#3e5741;
+     text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+body {
+    
+    font-family:"Book Antiqua",serif;
+    background: #6a856d;
+        color:rgb(247,163,188);
+    margin:auto;
+    line-height: 35px;
+}
+
+.navbar a{
+    
+      list-style-type:none;
+    padding-left:0px;
+    overflow: hidden;
+    margin:0px;
+        float:left;
+}
+ul{
+    list-style-type:none;
+    padding-left: auto;
+
+        
+    
+}
+
+
+a:link{
+    coolor:white;
+    text-decoration:none;
+    background-color:#90c24f;
+}
+
+a:visited{
+    color:#ff264a;
+}
+
+a:active{
+    color:#ff264a;
+    text-decoration: overline;
+}
+
+a:hover{
+    color:rgb(245, 110, 157);
+    text-decoration:underline;
+}
+
+figure{ 
+    margin:0px}
+
+figure img{ 
+    width:auto;
+
+}
+
+figcaption,footer{
+    
+    font-size:0.75em;
+    color:aliceblue;
+}
+
+main nav a{
+    color: #437542;
+    background-color:#fcf592;
+}
+
+
+
+#container {
+	border: 1px solid rgb(247,163,188);
+    background: #437542;
+    width:50
+    max-width:10px;*
+    margin:auto;
+  
+}
+
+
+
+
