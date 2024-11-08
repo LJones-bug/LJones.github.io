@@ -1,0 +1,73 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1.5em;
+    line-height: 1.4em;
+}
+
+
+
+
+body {
+	color:#ff0090;
+}
+
+h1{
+   
+    text-align:center;
+    color:#ffb0dd;
+    background-color:#ff42ad;
+    letter-spacing: 5px;
+    line-height: 1.4;
+    
+
+}
+
+h2{ 
+    text-decoration:overline underline;
+    text-decoration-color:#ff78c4;
+    text-decoration-style:wavy;
+    text-indent:20px;
+    text-align: left;
+    color:#ff0090;
+font-size: 50px;    
+
+}
+
+h3{
+    /*direction:ltr;*/
+    /*text-align:right;*/
+    text-shadow:5px 5px 10px #ff0090; 
+    font-size:90px;
+    color:#ffe0f2;
+    text-align:center;
+}
+
+h4{ text-indent: 20px;
+    text-transform:uppercase;
+    line-height:5;
+    rotate:10deg;
+   
+}
+
+#container {
+    
+    
+    color:#ffc9e8;
+    background-color:#db077f;
+    text-indent: 70px;
+    line-height: 1;             }
+
+div.a{
+    
+
+}
+
+
+
