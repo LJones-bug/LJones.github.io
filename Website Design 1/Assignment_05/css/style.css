@@ -1,0 +1,245 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+body {
+	
+	background-color:#7691a6;
+}
+
+.circle {
+    width:200px;
+    height:200px;
+    border:1px solid transparent;
+    border-radius:100px;
+    background-color:#31546e;
+    position:relative;
+    left:500px;
+    top:300px;
+    transition:all 2s;
+       }
+.circle:hover{
+    background-color:#0e1a24;
+    width:500px;
+    height:500;
+    border-radius:250px;
+}
+
+.tri-down{
+      width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-top: 100px solid #93caf5;
+        position:fixed;
+    left:500px;
+    top:50px;
+    transition: all 3s;
+       }
+.tri-down:hover{
+          border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-top: 200px solid #e6f3fc;
+
+}
+
+.star-1 {
+      width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-bottom: 100px solid #000000;;
+      position: fixed;
+    left:70px;
+         }
+.star-1:hover{
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-bottom: 100px solid #2f4454;
+    
+}
+
+.star-2 {
+          width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-top: 100px solid #000000;
+      position:fixed;
+      content: "";
+      top: 230px; 
+    left:70px;
+    transition:all 4s;
+   
+        }
+
+.star-2:hover{
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-bottom: 100px solid #7298b5;
+}
+
+/*
+.heart1{
+ 
+    position:relative;
+    width: 100px;
+    height:90px;
+    background-color:yellow;
+       }
+
+.heart2{
+    position:relative;
+    content:"";
+    left:50px;
+    top:0;
+    width:50px;
+    height:80px;
+    background-color:red;
+    border-radius:50px, 50px, 0, 0;
+    transform:rotate(-45deg);
+    transform-origin: 0, 100%;
+       }
+
+.heart3{
+    left:0;
+    transform:rotate(45deg);
+    transform-origin:100%, 100%;
+    background-color:pink;
+    position: relative;
+       } */
+
+.moon{
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      box-shadow: 15px 15px 0 0 #22545e;
+    position: fixed;
+    right:200px;
+    top:300px;
+    transition: all 2s;
+         }
+.moon:hover {
+  box-shadow: 15px 15px 0 0 #7691a6;
+  background-color:#051c21;
+}
+   
+
+.egg{
+      display: block;
+      width: 126px;
+      height: 180px;
+      background-color:#91adc2;
+      border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    position: fixed;
+    bottom:60px;
+    right:300px;
+    transition: background-color 2s, rotate 3s;
+       }
+.egg:hover{
+    
+   rotate: 180deg;
+    background-color: beige;
+}
+
+.pac-man{
+      width: 0px;
+      height: 0px;
+      border-right: 60px solid transparent;
+      border-top: 60px solid #8daeb5;
+      border-left: 60px solid #8daeb5;
+      border-bottom: 60px solid #8daeb5;
+      border-top-left-radius: 60px;
+      border-top-right-radius: 60px;
+      border-bottom-left-radius: 60px;
+      border-bottom-right-radius: 60px;
+      position: fixed;
+      left:350px;
+      top:550px;
+    transition:all 3s;
+       }
+
+.pac-man:hover {
+ 
+      border-top: 60px solid #42737d;
+      border-left: 60px solid #42737d;
+      border-bottom: 60px solid #42737d;
+          position: fixed;
+      left:600px;
+      top:550px;
+}
+
+.burst1{
+          background: white;
+      width: 80px;
+      height: 80px;
+      position:absolute;
+      transform: rotate(25deg);
+      top:100 ;
+      right: 450px;
+    transition: 3s;
+         }
+.burst1:hover{
+    background-color:#a884cf;
+    rotate:50deg;
+    
+}
+
+.burst2{
+    
+          content: "";
+      position:absolute;
+      top:100 ;
+      right: 450px;
+      height: 80px;
+      width: 80px;
+      background: white;
+      transform: rotate(-25deg);
+    transition: 3s;
+}
+
+.burst2:hover{
+    background-color:#c9a8ed;
+        rotate:50deg;
+              }
+
+.pill{
+    width:20px;
+    height:20px;
+    border:1px solid black;
+    border-radius:30px;
+    border-top: 10px solid #6200cc;
+    background-color:white;
+    position: fixed;
+    top:590px;
+    left:635px;
+    transform:rotate(60deg);
+    transition: all 2s;
+    }
+
+.pill:hover{
+    background-color:#dab8ff;
+     border-top: 10px solid #280a4a;
+      transform:rotate(300deg);
+    
+}
+
+#container {
+
+}
+
+
+
+

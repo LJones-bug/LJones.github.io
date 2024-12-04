@@ -1,0 +1,48 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+body {
+	font-family:"Fira Code";
+    /*background: #afc3c7;*/
+    color:rgba(107, 5, 68,0.4);
+    text-align: center;
+    background: rgb(6,14,48,84);
+    background: linear-gradient(90deg, rgba(218,193,228,1) 6%, rgba(208,162,220,1) 14%, rgba(147,99,199,1) 48%, rgba(149,233,198,1) 81%);
+}
+
+div#container {
+    /*border: 1px solid white;*/
+	width: 900px;
+    margin: auto;
+    margin-top: 50px;
+    font-family:"Fira Code";
+    background:#dae6eb;
+    /*padding: 20px;*/
+
+border
+}
+
+footer { 
+font-size: 12px;
+}
+
+header,footer {
+    
+    background:#c8ccdb;
+    padding: 15px;
+}
+
+main{
+    
+    padding: 20px;
+}

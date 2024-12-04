@@ -1,0 +1,141 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+/* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
+
+body {
+    background-color: #228f3a;
+    color:#d8ffd6;
+
+
+   background-image: url('img/tree.JPG.jpg');
+    width:475px;
+        height:100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin:0;
+    padding:0; 
+}
+
+
+#container {
+    margin:1em;
+    border:1px solid #84e0a6;
+    padding:0.75em;
+    object-position: center;
+ 
+}
+
+
+#jacksons{
+    background:rgba(59,102,92,0.4);
+    padding: 10px;
+}
+
+
+#mypov{
+    padding: 10px;
+    background:rgba(114,204,147,0.5);
+}
+
+
+
+
+
+
+/* ========================================
+MEDIA QUERIES!
+You can adjust the min-width numbers below, and add as many new media queries as you need.
+======================================== */
+
+
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+	
+#container {
+    border:0px solid #7a1505;
+    margin:auto;
+    height:100vh;
+    background-position: center;
+    margin:0;
+    padding:0; 
+}
+    
+    body{
+   background:#e6a640;
+        color:whitesmoke;
+    margin:auto;
+    width:700px;
+        height: 100vh;
+    }
+	
+    
+    
+    #jacksons{
+    background:rgba(230,51,28,0.3);
+    padding: 10px;
+}
+
+
+#mypov{
+    padding: 10px;
+    background:rgba(255, 64, 108,0.4);
+}
+
+    
+    
+    
+} /* closes 769px+ */
+
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+	
+	
+#container {
+    width:1000px;
+    border:1px solid #fcd1a9;
+    }
+    
+body{
+    color:#fcd1a9;
+    
+    }
+	
+    
+    
+#jacksons{
+    float: left;
+    width:45%;
+    }
+
+
+#mypov{
+    float:right;
+    width:45%;
+    }
+
+    footer{
+        clear:both;
+    }
+	
+} /* closes 1024px+ */
+
+
+
