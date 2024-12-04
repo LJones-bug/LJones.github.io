@@ -16,9 +16,18 @@ html {
 /* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
 
 body {
-background-color:#b55b07;
+    background-color: #228f3a;
     color:#d8ffd6;
-	
+
+
+   background-image: url('img/tree.JPG.jpg');
+    width:475px;
+        height:100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin:0;
+    padding:0; 
 }
 
 
@@ -58,14 +67,20 @@ You can adjust the min-width numbers below, and add as many new media queries as
 @media all and (min-width: 769px) {
 	
 #container {
-    border:1px solid #7a1505;
+    border:0px solid #7a1505;
     margin:auto;
-    width:725px;
+    height:100vh;
+    background-position: center;
+    margin:0;
+    padding:0; 
 }
     
     body{
    background:#e6a640;
         color:whitesmoke;
+    margin:auto;
+    width:700px;
+        height: 100vh;
     }
 	
     
@@ -96,6 +111,7 @@ You can adjust the min-width numbers below, and add as many new media queries as
 #container {
     width:1000px;
     border:1px solid #fcd1a9;
+    
     }
     
 body{
