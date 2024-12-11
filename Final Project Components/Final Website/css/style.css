@@ -82,6 +82,7 @@ a:link{
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
+    font-size:10px;
     
   }
 
@@ -109,7 +110,7 @@ h1 {
   font-weight: 400;
   font-style: normal;
     font-size: 55px;
-    text-shadow: 1px 1px 5px #cf5353;
+    text-shadow: 1px 1px 5px #a6d7ff;
 }
 
 h2 {
@@ -121,8 +122,26 @@ h2 {
 
 h3, h4{
 
+    font-size:25px;
     
 }
+
+
+figure{
+    margin:0px;
+    border 1px solid black;
+    padding:0.5em;
+}
+
+figure img{
+    width:100%;
+}
+
+figcaption{
+    
+    color:white;
+}
+
 
 
 
@@ -136,8 +155,33 @@ You can adjust the min-width numbers below, and add as many new media queries as
 /* Minimum width for laptops. */
 @media all and (min-width: 769px) {
 	
+	figure{
+    margin:0px;
+    border 1px solid black;
+    padding:0.5em;
+}
+
+figure img{
+    width:45%;
+}
+
+figcaption{
+    
+    color:white;
+}
+
+    body{
+        
+        height:200%;
+    }
 	
-	
+    
+    a:link{
+
+    font-size:40px;
+    
+  }
+    
 	
 } /* closes 769px+ */
 
