@@ -15,37 +15,23 @@ html {
 
 /* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
 
-#top{
-    
-    margin:1em;
-    border:1px;
-    padding:1em;
-    object-position: center;
-    color:#ffffff;
-    border-radius:30px 30px 0px 0px;
-    text-align:center;
-
-    
+body {
+  background-image:url(img/os-and-ones.png);
+	
 }
 
 
-body { background-image:linear-gradient(to right,#42cef5,#0055ff); }
-
 #container {
-    margin:1em;
-    border:1px;
+	background-color: rgba(255,36,36,0.5);
+    margin:3em;
+    border:1px solid black;
     padding:1em;
     object-position: center;
-    background-color: rgba(201,219,252,0.5);
-    color:#001c54;
-    border-radius:30px 30px 0px 0px;
-    height:57em;
-    text-align: center;
-            }
-
-
+    color:white;
+}
 
 #navbar a{
+    
     list-style-type:none;
     padding-left:0px;
     overflow: hidden;
@@ -55,74 +41,33 @@ body { background-image:linear-gradient(to right,#42cef5,#0055ff); }
     background-color:#9ebab2;
     border-radius: 10px;
 }
-
 ul{
     list-style-type:none;
     margin: 10;
     padding-bottom: 50px;
-  }
+}
 
-a:link{
-    float:inherit;
-    border: 4px solid transparent;
+li{
+    float:left;
+    border-right: 10px solid transparent;
         list-style-type:none;
-    margin: 1px;
-    padding-bottom: 0px;
+    margin: 10;
+    padding-bottom: 10px;
         list-style-type:none;
+    padding-left:3pxpx;
     overflow: hidden;
     margin:10px;
     float:left;
-    color:#0080ff;
+    color: #437542;
     background-color:rgb(255,255,255);
     border-radius: 10px;
-    text-decoration:none;
-    border-style:;
-    
-     font-family: "Kode Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-    
-  }
-
-a:visited{
-    
-    background-color:#17114f;
-    color:#5e55c2;
 }
 
-a:hover{
-    
-    background-color:#abcdff;
-    color:#0a007a;
-    transition:2s;
-}
 
-a:active{
-    
-    background-color: #05f7ff;
-    color:#3125b0;
-}
 
-h1 {
-  font-family: "Macondo", cursive;
-  font-weight: 400;
-  font-style: normal;
-    font-size: 55px;
-    text-shadow: 1px 1px 5px #cf5353;
-}
 
-h2 {
-  font-family: "Arsenal SC", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-    font-size:30px;
-}
 
-h3, h4{
 
-    
-}
 
 
 
