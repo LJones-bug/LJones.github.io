@@ -1,0 +1,144 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 400
+
+.playwrite-pe-<uniquifier> {
+  font-family: "Playwrite PE", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+h1{ 
+    font-family: 
+    font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+    background-color:#3e5741;
+    text-align: center;
+    border-radius: 25px 25px 0px 0px;
+    padding:10px;
+          color:rgb(247,163,188);
+}
+
+h2{
+    text-align: center;
+    color: #7da827;
+}
+
+h3{
+    background-color: #3e5741;
+    text-align: center;
+    /*border-radius: 10px 10px 10px 10px; */
+    padding:8px;
+          color:rgb(247,163,188);
+}
+
+body {
+    
+    font-family:"Book Antiqua",serif;
+    background:#b6d1bd;
+    margin:auto;
+    line-height: 35px;
+          color:#4d661a;
+    text-align:center;
+}
+
+.navbar a{
+    
+      list-style-type:none;
+    padding-left:0px;
+    overflow: hidden;
+    margin:10px;
+        float:left;
+}
+ul{
+    list-style-type:none;
+    margin: 10;
+    padding-bottom: 50px;
+
+        
+    
+}
+
+li{
+    float:left;
+    border-right: 10px solid transparent;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: #fff5fb;
+    border-radius: 10px;
+    margin:auto;
+}
+
+a:link{
+    coolor:white;
+    text-decoration:none;
+    background-color:#b6d1bd;
+}
+
+a:visited{
+    color:#a34545;
+}
+
+a:active{
+    color:#ff264a;
+}
+
+a:hover{
+    color:rgb(245, 110, 157);
+}
+
+figure{ 
+    margin:0px}
+
+figure img{ 
+    width:auto;
+
+}
+
+figcaption,footer{
+    
+    font-size:0.75em;
+    color:white;
+   padding-top: 10px;
+}
+
+main nav a{
+    color: #437542;
+    background-color:#9ebab2;
+     border-radius: 10px;
+}
+
+
+
+#container {
+	border: none;
+    background: #dedbd1;
+    width:800px;
+    height: 700px;
+    /* max-width:30px; */
+    margin:auto;
+    border-radius: 25px; 
+  
+}
+
+
+
+
