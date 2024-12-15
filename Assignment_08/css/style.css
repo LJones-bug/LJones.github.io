@@ -13,17 +13,221 @@ html {
 
 
 
+/* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
 
 body {
 	
-	
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    
+  background-color: #65a140;
+    margin: auto;
+    object-position: center;
+    text-align: center;
+        border:1px dotted #0d5409;
+    width:100%;
+        height:65em;
+    color:#efffe3;
+    font-size: 15px;
+}
+
+figure{
+    margin:0px;
+    border 1px solid black;
+    padding:0.5em;
+}
+
+figure img{
+    width:50%;
 }
 
 
 #container {
-	
+
+margin: auto;
+    width:50%;
+        padding:10px;
 }
 
+
+h1{
+
+  font-family: "Playwrite CA", cursive;
+  font-optical-sizing: auto;
+  font-weight: <300>;
+  font-style: normal;
+    font-size:25px;
+    color:#b8d6a1;
+
+}
+
+
+#hidden1{
+    
+    font-size: 50px;
+      font-family: "Edu AU VIC WA NT Arrows", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+    color:#0cc7c1;
+}
+
+#hidden2{
+    
+    font-size: 30px;
+    color:#fc68c1;
+      font-family: "Playwrite HR", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+#hidden3{
+    
+    font-size:60px;
+    color:#ff8000;
+      font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    
+}
+
+button{
+    
+    background-color:#4d9fbd;
+    border:3px solid #4dbd85;
+    color:#add98b;
+    text-align: center;
+    font-size: 50px;
+    display: inline-block;
+    border-radius: 10px;
+    
+    
+}
+
+
+
+
+/* ========================================
+MEDIA QUERIES!
+You can adjust the min-width numbers below, and add as many new media queries as you need.
+======================================== */
+
+
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+	
+	figure{
+    margin:0px;
+    border 1px solid black;
+    padding:0.5em;
+}
+
+figure img{
+    width:30%;
+}
+
+	
+	
+} /* closes 769px+ */
+
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+	
+	
+	body {
+	
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    
+  background-color: #65a140;
+    margin: auto;
+    object-position: center;
+    text-align: center;
+        border:1px dotted #0d5409;
+    width:50%;
+        height:100%;
+    color:#efffe3;
+    font-size: 15px;
+}
+
+figure{
+    margin:0px;
+    border 1px solid black;
+    padding:0.5em;
+}
+
+figure img{
+    width:35%;
+}
+
+
+    #container {}
+
+
+
+h1{
+
+  font-family: "Playwrite CA", cursive;
+  font-optical-sizing: auto;
+  font-weight: <300>;
+  font-style: normal;
+    font-size:35px;
+    color:#b8d6a1;
+
+}
+
+
+#hidden1{
+    
+    font-size: 50px;
+      font-family: "Edu AU VIC WA NT Arrows", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+    color:#0cc7c1;
+}
+
+#hidden2{
+    
+    font-size: 30px;
+    color:#fc68c1;
+      font-family: "Playwrite HR", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+#hidden3{
+    
+    font-size:60px;
+    color:#ff8000;
+      font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    
+}
+
+button{
+    
+    background-color:#4d9fbd;
+    border:3px solid #4dbd85;
+    color:#add98b;
+    text-align: center;
+    font-size: 50px;
+    display: inline-block;
+    border-radius: 10px;
+    
+    
+}
+	
+} /* closes 1024px+ */
 
 
 

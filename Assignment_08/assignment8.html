@@ -5,19 +5,75 @@
 <head>
 	
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	
-	<title>Assignment 8: jQuery</title>
+	<title>Assignment 8: JQuery</title>
 	
 	<link rel="stylesheet" href="css/style.css">	
-	
-</head>
     
-    <h1> Disney Confessions </h1>
-    <h2> Confessions Of A Ex Disney Employee </h2>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+CA:wght@100..400&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+	
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+HR:wght@100..400&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    
+</head>
 
 
 <body>
 
+ <header><h1>"The earth laughs In flowers"</h1>
+     <h2>A quote from "Hamatreya" by Ralph Waldo Emerson</h2>
+ </header>
+    
+ <main>
+    
+     
+     <figure>
+     
+     <img src="img/earth.png" alt="Earth">
+     
+     </figure>
+     
+ <p id=hidden1>
+     ha ha ha
+ </p>
+     
+     
+     <button> Laugh </button>
+     
+    <p id=hidden2>
+     Ha Ha Ha
+    </p>
+     
+     
+     
+     
+      <p id=hidden3>
+     HA! HA! HA!
+ </p>
+     
+     
+     
+     
+     </div>
+     
+ </main>
   <div id="container">
 
 
@@ -26,7 +82,46 @@
 
   </div><!-- close "container" -->
   
+  <!-- Link to jQuery on Google CDN-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  
 
+<script>
+  $(document).ready(function() {
+
+       $('p#hidden1').hide();
+      
+       $('p#hidden2').hide();
+      
+       $('p#hidden3').hide();
+
+      
+      
+      $('button').click(function() {
+          
+      $('p#hidden1').slideToggle();
+          
+      });//close click function
+      
+      
+      
+            $('button').click(function() {
+          
+      $('p#hidden2').fadeToggle();
+          
+      });//close click function
+      
+      
+      
+            $('button').click(function() {
+          
+      $('p#hidden3').slideToggle();
+          
+      });//close click function
+      
+  }); //close .ready()
+</script>
+    
 </body>
 	
 </html> 
