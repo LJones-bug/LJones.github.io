@@ -50,21 +50,25 @@
      
      </figure>
      
- <p id=hidden1>
+ <p id="hidden1">
      ha ha ha
  </p>
      
      
-     <button> Laugh </button>
+<button id="laugh">Laugh</button>
      
-    <p id=hidden2>
+<button id="chuckle">Chuckle</button>
+     
+<button id="giggle">Giggle</button>
+     
+    <p id="hidden2">
      Ha Ha Ha
     </p>
      
      
      
      
-      <p id=hidden3>
+      <p id="hidden3">
      HA! HA! HA!
  </p>
      
@@ -87,7 +91,8 @@
   
 
 <script>
-  $(document).ready(function() {
+    
+      $(document).ready(function() {
 
        $('p#hidden1').hide();
       
@@ -96,30 +101,37 @@
        $('p#hidden3').hide();
 
       
-      
-      $('button').click(function() {
+      $("button#laugh").click(function() {
           
-      $('p#hidden1').slideToggle();
-          
-      });//close click function
-      
-      
-      
-            $('button').click(function() {
-          
-      $('p#hidden2').fadeToggle();
+      $("p#hidden1").slideToggle();
           
       });//close click function
       
       
       
-            $('button').click(function() {
+            $("button#chuckle").click(function() {
           
-      $('p#hidden3').slideToggle();
+      $("p#hidden2").fadeToggle();
           
       });//close click function
+      
+      
+      
+            $("button#giggle").click(function() {
+          
+      $("p#hidden3").slideToggle();
+          
+      });//close click function
+      
       
   }); //close .ready()
+    
+    
+    
+    
+    
+    
+    
 </script>
     
 </body>
